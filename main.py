@@ -16,7 +16,7 @@ for i in range(5,245):
     addresses.append(sheet['A' + str(i)].value)
     weights.append(sheet['D' + str(i)].value)
 
-api_key = "AIzaSyCJf2H1WJbzUz9EZV3tGxNqs409ZH8bjCI"
+api_key = "XXXXXXXX"
 
 # Convert each address into a latitude and longitude
 for address in addresses:
